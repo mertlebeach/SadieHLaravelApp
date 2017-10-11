@@ -39,3 +39,9 @@ Route::get('/copyright',function(){
 Route::get('/galleryimages',function(){
     return view('galleryimages');
 });
+Route::get('/about',function(){
+    return view('about');
+});
+Route::get('/contact',function(){
+    return view('contact');
+});

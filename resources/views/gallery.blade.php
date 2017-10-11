@@ -1,7 +1,7 @@
-@extends('layouts.app')
+@extends('layouts.appother')
 @section('content')
-    <h1>hi</h1>
-    <div class="imagegallery">
+    <body>
+    <div class="imagegallery pull-right">
         <div class = "image">
             <a href="{{url('/galleryimages')}}" class="tilter tilter--1">
                 <figure class="tilter__figure">
@@ -63,6 +63,7 @@
             </a>
         </div>
     </div>
+    </body>
 
     <script>
         (function() {
