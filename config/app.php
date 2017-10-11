@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Sadie H Photography'),
+    'name' => env('APP_NAME', 'Laravel'),
 
     /*
     |--------------------------------------------------------------------------
@@ -104,7 +104,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY'),
+    'key' => 'H6ZOqtd8/bpDG23BAWBVC+B4xF1tBqiSB0RcwN7xrhM=',
 
     'cipher' => 'AES-256-CBC',
 
