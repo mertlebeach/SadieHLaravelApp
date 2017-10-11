@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Requests;
+
 class RequestsController extends Controller
 {
     //
@@ -15,8 +17,21 @@ class RequestsController extends Controller
     {
         return view('requests.create');
     }
-    public function show($id)
+//    public function show($id)
+//    {
+//        dd(request()->all());
+//    }
+    public function store()
     {
-        dd(request()->all());
+        $post = new Requests;
+
+        $post->info = request('info');
+        $post->email = request('email');
+        $post->user_id=1;
+
+        $post->save();
+
+        return redirect('/');
+
     }
 }

@@ -19,11 +19,11 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/requests/requests',function(){
+Route::get('/inquiries',function(){
     $requests = App\Requests::all();
     return view('requests/requests',compact('requests'));
 });
-Route::get('/requests/create','RequestsController@create');
+Route::get('/requests','RequestsController@create');
 
 Route::post('/requests','RequestsController@store');
 

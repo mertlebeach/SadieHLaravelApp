@@ -8,6 +8,7 @@
         <ul>
             @foreach($requests as $request)
                 <li>{{$request->email}}</li>
+                <li>{{$request->info}}</li>
             @endforeach
 
 
