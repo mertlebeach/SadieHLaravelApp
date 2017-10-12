@@ -31,7 +31,7 @@ class RequestsController extends Controller
 
         $post->save();
 
-        return redirect('/');
+        return redirect('/requestsubmission');
 
     }
 }
