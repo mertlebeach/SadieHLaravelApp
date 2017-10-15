@@ -45,7 +45,7 @@
 
 </head>
 <body>
-<div id= "top">
+<div id= "top container pull-left">
     <div id="header">
         <div id ="logo">
             <a href="{{url('/')}}"><div id ="logo1"> Sadie B</div> <div id = "logo2">Photography</div></a>
