@@ -7,13 +7,13 @@
 {{--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">--}}
 <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-<!--Javascrip!-->
-    <script type="text/javascript" src="{{asset('js/jquery-3.2.1.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/image_mouseover.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/main2.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/imagesloaded.pkgd.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/anime.min.js')}}"></script>
-    <script type ="text/javascript" src="{{asset('js/anime.min.js')}}"></script>
+    <!--Javascrip!-->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/image_mouseover.js"></script>
+    <script type="text/javascript" src="js/main2.js"></script>
+    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/anime.min.js"></script>
+    <script type ="text/javascript" src="js/main.js"></script>
     <script type ="text/javascript" src="js/valid.js"></script>
 
 
@@ -27,13 +27,13 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Playfair+Display" rel="stylesheet">
     <!--Stylesheets-->
-    <link rel="stylesheet" type = "text/css" href = "{{asset('css/style1.css')}}">
-    <link rel="stylesheet" type = "text/css" href = "{{asset('css/normalize2.css')}}">
-    <link rel="stylesheet" type = "text/css" href = "{{asset('css/pater.css')}}">
+    <link rel="stylesheet" type = "text/css" href = "css/style1.css">
+    <link rel="stylesheet" type = "text/css" href = "css/normalize2.css">
+    <link rel="stylesheet" type = "text/css" href = "css/pater.css">
 
-    <link rel="stylesheet" type = "text/css" href = "{{asset('css/component2.css')}}">
-    <link rel="stylesheet" type = "text/css" href = "{{asset('css/normalize.css')}}">
-    <link rel="stylesheet" type = "text/css" href = "{{asset('css/component.css')}}">
+    <link rel="stylesheet" type = "text/css" href = "css/component2.css">
+    <link rel="stylesheet" type = "text/css" href = "css/normalize.css">
+    <link rel="stylesheet" type = "text/css" href = "css/component.css">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
