@@ -1,11 +1,7 @@
 @extends('layouts.appother')
 @section('content')
 
-<html>
-    <head>
-
-    </head>
-    <body>
+<div class="container pull-right">
         <table class="table">
             <thead>
                 <tr>
@@ -25,6 +21,6 @@
 
 
         </table>
-    </body>
-</html>
+</div>
+
 @endsection
