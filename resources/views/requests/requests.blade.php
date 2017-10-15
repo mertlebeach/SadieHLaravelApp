@@ -1,18 +1,30 @@
-<!DOCTYPE html>
+@extends('layouts.appother')
+@section('content')
 
 <html>
     <head>
 
     </head>
     <body>
-        <ul>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Email</th>
+                    <th>Inquiry</th>
+                </tr>
+            </thead>
+            <tbody>
             @foreach($requests as $request)
-                <li>{{$request->email}}</li>
-                <li>{{$request->info}}</li>
+                <tr>
+                <td>{{$request->email}}</td>
+                <td>{{$request->info}}</td>
+                </tr>
             @endforeach
+            </tbody>
 
 
 
-        </ul>
+        </table>
     </body>
 </html>
+@endsection
